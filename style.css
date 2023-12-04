@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#header {
+  background: blue;
+  padding: 20px 0;
+}
+
+body {
+  background: rgb(0, 0, 68);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header input {
+  width: 350px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.buttons button {
+  padding: 7px 9px;
+  border-radius: 5px;
+  border: 2px solid blue;
+  color: blue;
+  cursor: pointer;
+}
+
+.dark:hover {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.dark1:hover {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.flag {
+  width: 250px;
+  padding: 20px;
+  /* background: rgb(255, 153, 0); */
+  background: blue;
+
+  border-radius: 20px;
+  color: white;
+}
+
+.flag:hover {
+  /* border: 5px solid orangered; */
+  box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+.flag h4:hover {
+  color: black;
+}
+
+.flag p:hover {
+  color: black;
+}
+
+.flag img {
+  height: 120px;
+  width: 210px;
+}
+
+#start {
+  background: rgb(248, 162, 34);
+  background: blue;
+  padding: 20px 0;
+}
+
+.start {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.start a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
